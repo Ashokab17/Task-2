@@ -1,5 +1,5 @@
 function appendToDisplay(value) {
-  Add commentMore actions  document.getElementById('display').value += value;
+  document.getElementById('display').value += value;
 }
 function clearDisplay() {
   document.getElementById('display').value = '';
